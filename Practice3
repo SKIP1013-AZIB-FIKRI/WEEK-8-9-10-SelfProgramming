@@ -1,0 +1,34 @@
+package MyScanner;
+
+public class Practice3 {
+	//declare dua variable x =0, y=1. 
+	//Selagi y lebih kecil dan sama dgn 10, tambah x dgn y. kemudian tambah y dgn 5. print x.
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x=0 , y=1 ,j =1 ;
+		
+		while ( y <= 10 ) {
+			
+		System.out.println ("Loop is " + j);
+		j=j+1;
+		System.out.println("y = " + y);
+		x = x + y ;
+		System.out.println( "x = " + x);
+		y = y + 5 ;
+		}
+		
+		
+		
+		for (y=1 ; y<= 10 ; y= y+5) {
+			
+			System.out.println(" Loop is " + j);
+			j= j + 1;
+			System.out.println ( "y = " + y);
+			x= x + y;
+			System.out.println ("x = " + x);
+		}
+			
+		
+		
+	}
+}
