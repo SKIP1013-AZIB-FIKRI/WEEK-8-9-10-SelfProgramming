@@ -1,0 +1,26 @@
+package MyScanner;
+import java.util.Scanner;
+public class Practicce6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int pin, pass , i = 1  ;
+		System.out.println ("Please enter your PIN number : ");
+		pin = input.nextInt();
+		pass = 12345;
+		if (pin == pass ) {
+		 System.out.println ("Access granted ");
+		}else {
+			do {
+				System.out.println ("Wrong !! Please try again ");
+				pin = input.nextInt();
+				i++;
+			}while ( i <= 3);
+			System.out.println ("Invalid Card");
+		} 
+			
+		}
+	}
+
+
